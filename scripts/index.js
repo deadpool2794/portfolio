@@ -1,8 +1,3 @@
-import addBasics from "./dummy.js"
+import App from "./App.js"
 
-
-const root = document.getElementById("root")
-
-const child = addBasics()
-
-root.appendChild(addBasics())
+App();
