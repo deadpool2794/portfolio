@@ -1,6 +1,6 @@
-
+import sheet from"./index.css" assert {type : 'css'}
 const DummyPage = () => {
-    
+    document.adoptedStyleSheets = [sheet]
     const details = {
         imageSource : "./resources/me_cropped.jpg",
         name : "Alim Khan Abdul",
